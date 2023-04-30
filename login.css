@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --main-color: #3c0000;
+  --aside: #540000;
+  --mesaage-other: #23110e;
+  --message2-Me: #85282e;
+  --over-view-color: #ffdc76;
+  --text-color: #fff;
+  --bar-color: #495579;
+  --color1: #b3afd7;
+  --color: #263159;
+  --content: #4a2c2c;
+  --btn-col: #f96666;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--main-color);
+  font-family: "Mulish", sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav li a ion-icon {
+  font-size: 1.5em;
+  color: #aaa;
+  transition: all 0.2s;
+}
+
+.nav li a ion-icon:hover {
+  color: #eee;
+}
+
+.nav li.btn {
+  padding: 10px 13px;
+  background: var(--btn-col);
+  border-radius: 7px;
+  color: var(--over-view-color);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.nav li.btn:hover {
+  background: tomato;
+}
+
+#box-bdy {
+  width: 100%;
+  height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#box-bdy header {
+  width: 350px;
+  height: 90px;
+  text-align: left;
+  color: var(--over-view-color);
+}
+
+#box-bdy .ipts select {
+  width: 350px;
+  height: 40px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  background: transparent;
+  font-family: "Mulish", sans-serif;
+}
+
+#box-bdy .ipts select option {
+  color: black;
+}
+
+#box-bdy .ipts .iptss {
+  width: 350px;
+  height: 40px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  font-size: 1rem;
+  background: transparent;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#box-bdy .ipts .iptss input[type="number"] {
+  width: 60px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: transparent;
+  border-bottom: 1px solid #aaa;
+  color: var(--text-color);
+  margin-right: 20px;
+}
+
+#box-bdy .ipts .iptss input[type="tel"] {
+  width: 270px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: transparent;
+  border-bottom: 1px solid #aaa;
+  color: var(--text-color);
+}
+
+#box-bdy .ipts button {
+  margin-top: 40px;
+  width: 350px;
+  height: 45px;
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
+  background: #fff2cc;
+  letter-spacing: 1px;
+  outline: none;
+  border: none;
+  color: #ffd966;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#box-bdy .ipts button:hover {
+  background: #47b5ff;
+}
+
+#box-bdy p {
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+
+#box-bdy p a {
+  color: var(--over-view-color);
+  transition: all 0.2s;
+}
+
+#box-bdy p a:hover {
+  text-decoration: underline;
+}

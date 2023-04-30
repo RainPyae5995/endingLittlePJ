@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Using Ph.No</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="img/Telegram.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="login.css" type="text/css" />
+  </head>
+  <body>
+    <ul class="nav">
+      <li>
+        <a href="./index.html"
+          ><ion-icon name="arrow-back-outline"></ion-icon
+        ></a>
+      </li>
+      <li class="btn">SETTINGS</li>
+    </ul>
+    <section id="box-bdy">
+      <header>
+        <h3 style="font-weight: 100">Your Phone Number</h3>
+        <h5 style="margin-top: 7px; font-weight: 100">
+          Please cofirm your country code <br />
+          and enter your phone number
+        </h5>
+      </header>
+      <div class="ipts">
+        <select name="country" id="country" class="">
+          <option disabled selected>Country Code</option>
+          <option value="mm">
+            United Arab Emirates &nbsp; <span>+971</span>
+          </option>
+          <option value="th">Australia &nbsp; <span>+43</span></option>
+          <option value="usa">Brazil &nbsp; <span>+55</span></option>
+          <option value="jp">Belize &nbsp; <span>+501</span></option>
+          <option value="gm">Canada &nbsp; <span>+1</span></option>
+          <option value="vn">Switzerland &nbsp; <span>+41</span></option>
+          <option value="tk">Thailand &nbsp; <span>+66</span></option>
+          <option value="pt">Myanmar &nbsp; <span>+95</span></option>
+          <option value="uae">Chinese &nbsp; <span>+86</span></option>
+          <option value="cy">AnonymousNumbers &nbsp; <span>+888</span></option>
+          <option value="af">Ethiopia &nbsp; <span>+251</span></option>
+          <option value="wo">Japan &nbsp; <span>+81</span></option>
+          <option value="re">France &nbsp; <span>+33</span></option>
+          <option value="ho">Germany &nbsp; <span>+49</span></option>
+          <option value="kp">Georgia &nbsp; <span>+995</span></option>
+          <option value="fp">Hungary &nbsp; <span>+36</span></option>
+          <option value="sr">Ireland &nbsp; <span>+353</span></option>
+          <option value="rm">South Korea &nbsp; <span>+82</span></option>
+        </select>
+        <div class="iptss">
+          <input type="number" name="num" id="unm" />
+          <input type="tel" name="phone" id="npho" />
+        </div>
+        <button type="submit"><b>Next</b></button>
+      </div>
+      <p><a href="./addacc.html">Quick login using QR code</a></p>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
